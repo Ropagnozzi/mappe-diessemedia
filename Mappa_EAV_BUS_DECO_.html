@@ -22,7 +22,7 @@ function normalizeProv(r){if(!r)return "";var t=r.trim();if(t.length===2&&t===t.
 var _penPct=D.penetrationPct||5;
 var DC=D.dimColors||{"6x3":"#4361ee","4x3":"#2d6a4f","3x2":"#f77f00","100x140":"#e63946","200x140":"#7209b7","70x100":"#118ab2"};
 var map=L.map("map").setView(D.mapView?D.mapView.center:[41.9,12.5],D.mapView?D.mapView.zoom:6);
-L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",{maxZoom:19}).addTo(map);
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",{maxZoom:19}).addTo(map);
 var ic={};var seen={};var st=D.stores||[];var stMarkers=[];
 for(var i=0;i<st.length;i++){if(!seen[st[i].insegna]){ic[st[i].insegna]=CP[Object.keys(seen).length%CP.length];seen[st[i].insegna]=true;}}
 for(var i=0;i<st.length;i++){var s=st[i];var c=ic[s.insegna]||"#e63946";var iconHtml;if(s.logo){iconHtml='<img class="store-marker-logo" src="'+s.logo.replace(/"/g,"&quot;")+'" style="border-color:'+c+'" onerror="this.style.display=\'none\';this.nextSibling.style.display=\'flex\'"><div class="store-marker" style="border-color:'+c+';color:'+c+';display:none">'+s.insegna.substring(0,3).toUpperCase()+'<\/div>';}else{iconHtml='<div class="store-marker" style="border-color:'+c+';color:'+c+'">'+s.insegna.substring(0,3).toUpperCase()+'<\/div>';}var sm=L.marker([s.lat,s.lng],{icon:L.divIcon({className:"",html:iconHtml,iconSize:[36,36],iconAnchor:[18,18]})}).addTo(map).bindPopup("<strong>"+s.nome+"<\/strong><br><em>"+s.insegna+"<\/em><br>"+(s.indirizzo||""));sm.on("click",(function(idx){return function(){flyToStore(idx);};})(i));stMarkers.push(sm);}

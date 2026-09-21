@@ -22,7 +22,7 @@ function normalizeProv(r){if(!r)return "";var t=r.trim();if(t.length===2&&t===t.
 var _penPct=D.penetrationPct||5;
 var DC=D.dimColors||{"6x3":"#4361ee","4x3":"#2d6a4f","3x2":"#f77f00","100x140":"#e63946","200x140":"#7209b7","70x100":"#118ab2"};
 var map=L.map("map").setView(D.mapView?D.mapView.center:[41.9,12.5],D.mapView?D.mapView.zoom:6);
-L.tileLayer("https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png",{maxZoom:19}).addTo(map);
+L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}",{maxZoom:19}).addTo(map);
 var ic={};var seen={};var st=D.stores||[];var stMarkers=[];
 if(D._logos){for(var _li=0;_li<st.length;_li++){var _lm=/^@(\d+)$/.exec(st[_li].logo||"");if(_lm)st[_li].logo=D._logos[+_lm[1]]||"";}}
 for(var i=0;i<st.length;i++){if(!seen[st[i].insegna]){ic[st[i].insegna]=CP[Object.keys(seen).length%CP.length];seen[st[i].insegna]=true;}}
