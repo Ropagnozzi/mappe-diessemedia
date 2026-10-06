@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-06T13:54:13.881Z",
+  "source": "eav-paline-beta",
+  "count": 10,
+  "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
+  "overrides": {
+    "63080-3480": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-11T11:34:38.463Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-06-11T11:34:38.463Z"
+    },
+    "63080-3479": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-11T11:34:42.111Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-06-11T11:34:42.111Z"
+    },
+    "63080-3448": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-11T11:34:46.911Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-06-11T11:34:46.911Z"
+    },
+    "63080-3421": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-11T11:34:49.335Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-06-11T11:34:49.335Z"
+    },
+    "63080-3446": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-11T11:40:30.158Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-06-11T11:40:30.158Z"
+    },
+    "63080-3423": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-11T11:40:32.734Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-06-11T11:40:32.734Z"
+    },
+    "63080-3425": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-11T15:10:26.819Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-06-11T15:10:26.819Z"
+    },
+    "63017-0609": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-16T17:15:08.346Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-06-16T17:15:08.346Z"
+    },
+    "63017-0608": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-16T17:15:10.234Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-06-16T17:15:10.234Z"
+    },
+    "63017-0604": {
+      "stato": "in_ispezione",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-06-16T17:15:12.162Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-06-16T17:15:12.162Z"
+    }
+  }
+}
