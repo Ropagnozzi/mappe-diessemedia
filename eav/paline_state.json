@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07T14:39:31.362Z",
+  "date": "2026-10-07T14:45:19.646Z",
   "source": "eav-paline-beta",
   "count": 721,
   "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
@@ -437,7 +437,7 @@
       "_ts": 1791383199461
     },
     "63049-1987": {
-      "stato": "in_lavorazione",
+      "stato": "mapped",
       "ultimaIspezione": "2026-10-07",
       "storia": [
         {
@@ -457,10 +457,23 @@
           "a": "in_lavorazione",
           "ts": "2026-10-07T14:26:39.461Z",
           "op": null
+        },
+        {
+          "da": "in_lavorazione",
+          "a": "installata",
+          "ts": "2026-10-07T14:45:03.361Z",
+          "op": null
+        },
+        {
+          "da": "installata",
+          "a": "mapped",
+          "ts": "2026-10-07T14:45:10.225Z",
+          "op": null
         }
       ],
-      "updated": "2026-10-07T14:26:39.461Z",
-      "_ts": 1791383199461
+      "updated": "2026-10-07T14:45:10.225Z",
+      "_ts": 1791384310227,
+      "cronoprogramma_id": null
     },
     "63049-1875": {
       "stato": "in_lavorazione",
