@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-18T14:27:11.480Z",
+  "date": "2026-11-18T14:28:12.219Z",
   "source": "eav-paline-beta",
-  "count": 723,
+  "count": 724,
   "device": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)",
   "overrides": {
     "63080-3480": {
@@ -18650,6 +18650,21 @@
       ],
       "updated": "2026-11-18T14:27:02.621Z",
       "_ts": 1795012022623,
+      "tipoPalina": "A",
+      "stato": "in_ispezione"
+    },
+    "63011-0534": {
+      "intervento": "installa",
+      "storia": [
+        {
+          "da": "mapped",
+          "a": "in_ispezione",
+          "ts": "2026-11-18T14:28:04.173Z",
+          "op": null
+        }
+      ],
+      "updated": "2026-11-18T14:28:04.173Z",
+      "_ts": 1795012084175,
       "tipoPalina": "A",
       "stato": "in_ispezione"
     }
